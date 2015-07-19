@@ -1,7 +1,10 @@
 #!/bin/bash
 
+apt-get update
 apt-get -y install git
 apt-get -y install tmux
+apt-get -y install emacs
+apt-get -y install vim
 
 adduser dyba
 adduser guest
